@@ -3,7 +3,7 @@
 /**
  * my_hist - shows history list, one command by line, preceded
  *              with line numbers, from 0.
- * @info: a structure containing the potential arguments that is used to maintain
+ * @info: a structure containing the potential arguments used to maintain
  *        constant function prototype.
  *  Return: 0
  */
@@ -82,9 +82,9 @@ int _printalias(list_t *node)
 
 /**
  * my_alias - mimics the alias builtin (man alias)
- * @info: The structure containing potential arguments that are used to maintain
+ * @info: The structure containing potential arguments used to maintain
  *          constant function prototype.
- *  Return: 0
+ * Return: 0
  */
 int my_alias(info_t *info)
 {
