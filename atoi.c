@@ -1,9 +1,9 @@
 #include "KIMBA.H"
 
 /**
- * execution - returns true if the shell is in  interactivemode
+ * interactive - returns true if the shell is in  interactivemode
  * @info: struct address
- * interactive-  this is correction by EJ
+ *
  * Return: 1 if in  interactivemode, otherwise 0
  */
 int interactive(info_t *info)
