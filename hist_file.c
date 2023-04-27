@@ -14,8 +14,9 @@ char *get_hist_file(info_t *info)
 	dir = get_env(info, "HOME=");
 	if (!dir)
 		return (NULL);
-	buf = malloc(sizeof(char) * (string_length(dir) + string_length(HIST_FILE) + 2));
-	if (!buf)
+	buf = malloc(sizeof(char)
+	* (string_length(dir) + string_length(HIST_FILE) + 2));
+	*if (!buf)
 		return (NULL);
 	buf[0] = 0;
 	str_copy(buf, dir);
